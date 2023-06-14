@@ -58,7 +58,7 @@ managedNodeGroups:
     volumeType: gp3
 metadata:
   name: logz-io-o11y-workshop
-  region: us-east-2
+  region: us-east-1
   tags:
     Project: logz-io-o11y-workshop
     Product: workshop

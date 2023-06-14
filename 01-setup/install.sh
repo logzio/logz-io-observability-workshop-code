@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # upgrade aws otherwise we will not be able to talk to our eks cluster
-pip3 install ^Cscli --upgrade --user
+pip3 install awscli --upgrade --user
 echo 'export PATH=~/.local/bin:$PATH' >>~/.bashrc
 source ~/.bashrc
 
